@@ -19,7 +19,8 @@ button{ border: none;}
     --color-1: #4E47FF;
     --color-2: #ffffff;
     --color-3: #252432;
-    --color-4: #
+    --color-4: #25243250;
+    --color-5: #E5E7FF;
     
 
 }
@@ -54,12 +55,13 @@ body{
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 700px;
 }
 .logo h2{
     font-size: 34px;
     font-weight: 900;
     color: var(--color-1);
+    font-family: "Inter", sans-serif;
 }
 .header-top{
     display: flex;
@@ -79,4 +81,59 @@ body{
 }
 .header-banner button{
     margin: 0 auto;
+}
+
+/* Action section  */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+.left-side{
+    padding-right: 250px;
+}
+.left-side h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-3);
+}
+.left-side p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--color-4);
+    margin: 23px 0;
+}
+.right-side img{
+    border-radius: 48px;
+}
+
+.productive{
+    background-color: var(--color-5);
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.productive h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--color-3);
+    margin-bottom: 40px;
+    text-align: center;
+}
+.pro-card{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-card .card h3{
+    font-size: 80px;
+    color: var(--color-1);
+    font-weight: 700px;
+    font-family: "Inter", sans-serif;
+}
+.pro-card .card p{
+    font-size: 20px;
+    color: #00000050;
+    font-weight: 400px;
+    font-family: "Inter", sans-serif;
 }
