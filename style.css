@@ -27,6 +27,7 @@ button{ border: none;}
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #F5F8FF;
 }
 
 .container{
@@ -90,22 +91,22 @@ body{
     align-items: center;
     margin: 100px auto;
 }
-.left-side{
+.action .left-side{
     padding-right: 250px;
 }
-.left-side h2{
+.action .left-side h2{
     font-size: 48px;
     font-weight: 700;
     color: var(--color-3);
 }
-.left-side p {
+.action .left-side p {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     color: var(--color-4);
     margin: 23px 0;
 }
-.right-side img{
+.action .right-side img{
     border-radius: 48px;
 }
 
@@ -124,6 +125,7 @@ body{
 .pro-card{
     display: flex;
     justify-content: space-between;
+    padding: 0 55px;
 }
 .pro-card .card h3{
     font-size: 80px;
@@ -136,4 +138,160 @@ body{
     color: #00000050;
     font-weight: 400px;
     font-family: "Inter", sans-serif;
+}
+
+
+/* User section design  */
+.feedback{
+    margin: 120px auto;
+}
+.feedback h3{
+    font-size: 38px; 
+    font-weight: 700;
+    color: var(--color-3);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feedback-card{
+    display: flex;
+    gap: 20px;
+}
+.feedback-card .card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--color-2);
+    border-radius: 14px;
+    padding: 24px;
+}
+.card .images{
+    display: flex;
+    gap: 5px;
+}
+.card-info h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-3);
+    line-height: 36px;
+}
+.card-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-3);
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+.card-author{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card-author img{
+    border-radius: 50%;
+}
+.card-author h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #25243295;
+}
+.card-author p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-4);
+}
+
+/* Focus section design  */
+.focus{
+    background-color: var(--color-2);
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+.focus h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-3);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.focus p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-4);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.focus button{
+    margin: 20px auto;
+}
+.focus img{
+    border-radius: 48px;
+}
+
+
+/* Get in touch  */
+
+.touch{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.touch .left-side, .touch .right-side{
+    width: 50%;
+}
+.touch .left-side h3{
+    font-size: 97px;
+    font-weight: 700;
+    color:var(--color-3);
+}
+
+.input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    font-size: 18px;
+    font-weight:500;
+    font-family: "Inter", sans-serif;
+}
+
+.input-box input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #D6DDED;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--color-4);
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+.input-box textarea {
+    width: 100%;
+    border: 1px solid #D6DDED;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--color-4);
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+.form input[type="submit"]{
+    background-color: var(--color-1);
+    width: 100%;
+    margin-top: 20px;
+    padding: 19px 100px;
+    border: none;
+    border-radius: 10px;
+    color: var(--color-2);
+    font-size: 16px;
+    font-weight: 700;
+}
+.form input[type="submit"]:hover{
+   background-color: var(--color-3);
+    color: var(--color-2);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
 }
