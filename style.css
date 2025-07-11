@@ -1,0 +1,82 @@
+/* #CUSTOM PROPERTY */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+img, button { display: block; }
+
+a, span { display: inline-block; }
+
+button{ border: none;}
+
+:root{
+    --color-1: #4E47FF;
+    --color-2: #ffffff;
+    --color-3: #252432;
+    --color-4: #
+    
+
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Button style  */
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border-radius: 10px;
+    padding: 12px 34px;
+}
+.btn:hover{
+    background-color: var(--color-3);
+    color: var(--color-2);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+}
+
+/* Header section design  */
+.header{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.logo h2{
+    font-size: 34px;
+    font-weight: 900;
+    color: var(--color-1);
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.header-banner{
+    margin: 150px 50px;
+}
+.header-banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--color-3);
+    text-align: center;
+    margin-bottom: 37px;
+}
+.header-banner button{
+    margin: 0 auto;
+}
